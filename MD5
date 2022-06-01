@@ -1,0 +1,16 @@
+0735aa86b9bb279ce8736a02f2f657d4 *DESCRIPTION
+f559846abca99a506f7eb4617d6070c7 *NAMESPACE
+8fd853781ab1401d9f1fa848f533a0ed *NEWS.md
+be8a7adcb38837696f8b7a0f10e1bec9 *R/CPC.R
+70f35c1363a8d26ec848f9111de38830 *R/CPCdata.frame.R
+c87a22829b36eb89a0e59ebcbe07de47 *R/Euclidean.R
+590f8b75da8ec3e43ada1fa40c3591fe *R/SS.R
+72a8dfdac117e1038dee3791bf59c2ae *R/correlate.R
+e8f080d377365a165505acbfc965874f *R/zzz.R
+95d6f388edbeb65b6373cc15d2bd4bec *README.md
+46d35b6c1395231ab6e9595b0f538655 *inst/CITATION
+e6516bbe0fe49bd58e672367d776202e *man/CPC.Rd
+98e33c3c243434ad855dcf6f57cf88bf *man/CPCdata.frame.Rd
+e233c5c0fffc3219df77445a7ec38bd5 *man/Euclidean.Rd
+9c3d5ad319e87877f88c58394a7aaac5 *man/SS.Rd
+24af6cbf692fb6edffef57d420f0e831 *man/correlate.Rd
