@@ -23,18 +23,16 @@
 #' @export
 
 diff_multidim <- function(data, cols, clusters) {
-  input <- na.omit(as.matrix(data)[,c(cols, clusters)])
-  colnames(input)[ncol(input)] <- "clusters"
-  input <- as.data.frame(input)
+  input <- CPCdata.frame(data, cols, clusters)
 
   means <- c()
 
-  for (i in unique(input$clusters)) {
+  for (i in unique(input$cluster)) {
     name <- paste0("cluster_", i)
 
-    assign(name, apply(subset(input, clusters == i)[, -clusters], 2, as.numeric))
+    assign(name, apply(as.data.frame(input[input$cluster == i, -ncol(input)]), 2, as.numeric))
 
-    obs <- nrow(subset(input, clusters == i))
+    obs <- nrow(input[input$cluster == i,])
 
     if (obs > 1) {
       means <- c(means, colMeans(eval(parse(text = name))))
