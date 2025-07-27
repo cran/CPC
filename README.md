@@ -5,8 +5,8 @@
 [![CRAN status](https://www.r-pkg.org/badges/version/CPC)](https://CRAN.R-project.org/package=CPC)
 [![Downloads](https://cranlogs.r-pkg.org/badges/grand-total/CPC)](https://cran.r-project.org/package=CPC)
 [![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-green.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
-<!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.290683.svg)](https://doi.org/10.5281/zenodo.290683) -->
 [![License: CC0](https://img.shields.io/cran/l/CPC)](https://imehlhaff.net/CPC/LICENSE.html)
+<!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.290683.svg)](https://doi.org/10.5281/zenodo.290683) -->
 <!-- [![Codecov test coverage](https://codecov.io/gh/imehlhaff/CPC/branch/master/graph/badge.svg)](https://app.codecov.io/gh/imehlhaff/CPC?branch=master) -->
 <!-- badges: end -->
 
@@ -45,12 +45,16 @@ Mehlhaff, Isaac D. "A Group-Based Approach to Measuring Polarization," American 
 For BibTeX users:
 
 ```
-@article{Mehlhaffforthcoming,
+@article{Mehlhaff2024,
   title = {A {{Group-Based Approach}} to {{Measuring Polarization}}},
   author = {Mehlhaff, Isaac D.},
-  year = {forthcoming},
-  journaltitle = {American Political Science Review},
-  url = {https://doi.org/10.1017/S0003055423001041}
+  year = {2024},
+  month = aug,
+  journal = {American Political Science Review},
+  volume = {118},
+  number = {3},
+  pages = {1518--1526},
+  doi = {https://doi.org/10.1017/S0003055423001041}
 }
 ```
 
